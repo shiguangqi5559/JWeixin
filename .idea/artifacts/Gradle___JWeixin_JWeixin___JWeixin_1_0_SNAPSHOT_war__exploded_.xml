@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : JWeixin:JWeixin : JWeixin-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/JWeixin/exploded/JWeixin-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JWeixin/web/Web Gradle : JWeixin-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JWeixin" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: com.jfinal:jfinal-weixin:1.5" />
+          <element id="library" level="project" name="Gradle: com.alibaba:fastjson:1.2.7" />
+          <element id="library" level="project" name="Gradle: com.jfinal:jfinal:2.0" />
+          <element id="library" level="project" name="Gradle: org.freemarker:freemarker:2.3.20" />
+          <element id="library" level="project" name="Gradle: dom4j:dom4j:1.6.1" />
+          <element id="library" level="project" name="Gradle: jaxen:jaxen:1.1.6" />
+          <element id="library" level="project" name="Gradle: commons-codec:commons-codec:1.9" />
+          <element id="library" level="project" name="Gradle: cglib:cglib-nodep:3.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/JWeixin/exploded/JWeixin-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
